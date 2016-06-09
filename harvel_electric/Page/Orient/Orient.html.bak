@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Harvel Electric-Orient</title>
+<style>
+.header
+{
+	 margin:0 auto;
+	padding:0px;
+	height:170px;
+	width:100%;
+	
+}
+#table1
+{
+background: #efefef;
+margin:0px;
+	padding:0px;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+	width:100%;
+	
+}
+.page
+{
+	padding:10px;
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 30px rgba(0,0,0,50.50);
+	border-color:#333;
+	margin:50px;
+	border-radius:20px;
+	
+}
+.menu
+{
+	width:100%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+	
+}
+.menu ul ul {
+	display: none;
+	
+}
+
+.menu ul li:hover > ul
+{
+		display: block;
+	
+}
+
+.menu ul 
+{
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	z-index:9999;
+	
+	
+}
+.menu ul :after
+{
+		content: ""; clear: both; display: block;
+}
+.menu ul li
+{
+	float: left;
+	
+}
+.menu ul li:hover 
+{
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	
+}
+a:hover
+{
+		
+}
+.menu ul li:hover a
+{
+			color: #fff;
+}
+	
+.menu ul li a 
+{
+		display: block; padding: 25px 40px;
+		color: #757575; text-decoration: none;
+}
+.menu ul ul 
+{
+	background: #5f6975;  border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+.menu ul ul li
+{
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+}
+.menu ul ul li a 
+{
+			padding: 15px 40px;
+			color: #fff;
+}	
+.menu ul ul li a:hover
+{
+	background: #4b545f;
+	
+}	 
+input
+{
+	float: right; font-family:'Comic Sans MS', cursive; background-color: #06C; border:ridge:#00F; width:150px; height:30px; font-size: 14px; padding-right:20px; color:#FFF;
+}
+body
+{
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+	margin:0px;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	width:100%;
+	height:100%;
+	
+}
+ 
+
+
+
+
+input{ padding:5px;
+      /*Hover off*/
+ border-radius:5px; -webkit-transition:padding 2s}
+
+input:hover{  padding:10px; border-radius:15px;
+      /*hover on*/
+-webkit-transition:border-radius 2s;
+}
+
+#h11
+{
+	background-color:#333;
+	color:#FFF;
+	font-family:"MS Serif", "New York", serif;
+	background: #333; 
+	background: linear-gradient(top, #333 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #333 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #333 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	height:40px;
+	padding:10px;
+	
+}
+#h2
+{
+	display:block;
+	margin:5px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#p
+{
+	display:block;
+	margin:10px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#td1
+{
+	height:300px;
+	width:300px;
+	text-align:center;
+	border-color:#CCC;
+	
+}
+.image img
+{
+	padding:10px 10px;
+	-webkit-transform:scale(0.9);
+	-moz-transform:scale(0.9);
+	-o-transform:scale(0.9);
+	transform:scale(0.9);
+	
+	-webkit-transition-duration:0.5s;
+	-moz-transition-duration:0.5s;
+	-o-transition-duration:0.5s;
+	transition-duration:0.5s;
+	opacity:0.5;
+}
+.image img:hover
+{
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	transform:scale(1.1);
+	opacity:1;
+	background-color:#999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+	padding:10px;
+	background: linear-gradient(top, #333 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #333 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #FFF 0%,#FFF 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	background-color:#FFF;
+	border-color:#333;
+	margin-top:50px;
+	margin-left:50px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-right:50px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
+ul
+{
+	list-style:none;
+	
+}
+li 
+{
+	
+	display:table-footer-group;
+	
+}
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	color:#FFF;
+	background-color:#4b545f;
+
+}
+a:active
+{
+	color:#FFF;
+	background-color:#03F;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+<table id="table1" width="1024" height="85" border="0">
+  
+  <tr>
+    <td width="1219">
+    <img src="../image/1.png" style="ruby-align:center; height:150px;
+    width:200px"><a href=""> </a>
+    
+    
+    </td>
+    <td width="314">
+    
+    <input type="url" name="url" placeholder="Search Here..." style=" background-color:#FFF; width:250px; height:30px; font:'Comic Sans MS', cursive:bold; color:#CCC; float:right" />
+</td>
+  </tr>
+</table>
+</div>
+<div class="page">
+
+<div class="menu">
+<ul>
+  
+    <li><a href="">Home Page</a></li>
+    <li><a href="">Products</a>
+    <ul>
+    <li><a href="">Air Condition</a>
+    </li>
+    <li><a href="">TV</a>
+    </li>
+    <li><a href="">Refrigerator</a>
+    </li>
+    <li>
+    <a href="">Geyser</a>
+    </li>
+    </ul>
+    </li>
+    <li><a href="">Brands</a>
+    <ul>
+    <li><a href="">Dawlance</a>
+    </li>
+    <li><a href="">Orient</a>
+    </li>
+    <li><a href="">Haier</a>
+    </li>
+    <li>
+    <a href="">LG</a>
+    </li>
+    </ul>
+    </li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact us</a></li>
+
+  
+</ul>
+</div>
+<br>
+<div class="orient">
+<h1 id="h11">&nbsp;&nbsp;&nbsp;ORIENT</h1>
+<div class="image">
+<table width="1200" border="0" cellpadding="10" align="center" height="900">
+  <tr>
+    <td id="td1">
+    <img src="1.jpg" height="250" width="250">
+    <h2 id="h2">ORIENT LED 24G6511</h2>
+<p id="p1">24 INCH FULL HD LED TV WITH ULTRA THIN DESIGN,ENERGY EFFICIENT TECHNOLOGY AND URDU LANGUAGE SUPPORT.</p>
+<h1>Old price: PKR 21500.00</h1>
+<h1>Price: PKR 17500.00</h1>
+    </td>
+    <td id="td1">
+    <img src="2.png" height="250" width="250">
+    
+<h2 id="h2">ORIENT LED 50G7061</h2>
+<p id="p1">50 INCH FULL HD CRYSTAL CLEAR LED TV WITH ULTRA THIN DESIGN,ENERGY EFFICIENT TECHNOLOGY AND URDU LANGUAGE SUPPORT.</p>
+<h1>Old price: PKR 72000.00</h1>
+<h1>Price: PKR 64000.00</h1>
+    </td>
+    <td id="td1">
+    <img src="3.jpg" height="250" width="250">
+  <h2 id="h2">ORIENT REFRIGERATOR OSBS-698SS</h2>
+<p id="p1">SIDE BY SIDE NO FROST REFRIGERATOR WITH EUROPEAN TECHNOLOGY COMPRESSOR AND HEAVY STORAGE SPACE.</p>
+<h1>Old price: PKR 87000.00</h1>
+<h1>Price: PKR 86000.00</h1>
+
+    </td>
+
+  </tr>
+  <tr>
+    <td id="td1">
+    <img src="4.jpeg" height="250" width="250">
+    
+<h2 id="h2">ORIENT 25MD14 H&C</h2>
+<p id="p1">2 TON) WALL MOUNTED SPLIT AIR-CONDITIONER WITH INVERTER TECHNOLOGY: REDUCES YOUR ELECTRICITY BILLS BY 50% WITH EXTRA EFFICIENT COOLING PERFORMANCE!!!,/
+
+<h1>Old price: PKR 102000.00</h1>
+<h1>Price: PKR 98000.00</h1>
+    </td>
+    <td id="td1">
+    <img src="5.jpeg" height="250" width="250">
+    <h2 id="h2">ORIENT OWD-531</h2>
+<p id="p1">WATER DISPENSOR</p>
+<h1>Old price: PKR 12300.00</h1>
+<h1>Price: PKR 12000.00</h1>
+
+    </td>
+    <td id="td1">
+    <img src="6.jpeg" height="250" width="250">
+   <h2 id="h2"> ORIENT 25MD06</h2>
+<p id="p1">2.0 TON WALL MOUNTED SPLIT AIR-CONDITIONER WITH INVERTER TECHNOLOGY: REDUCES YOUR ELECTRICITY BILLS BY 50% WITH EXTRA EFFICIENT COOLING PERFORMANCE!!</p>
+<h1>Old price: PKR 103000.00</h1>
+<h1>Price: PKR 98000.00</h1>
+    </td>
+  </tr>
+  <tr>
+    <td id="td1"><img src="12.jpeg" height="250" width="250">
+    <h2 id="h2"> ORIENT 19MD06</h2>
+<p id="p">1.5 TON WALL MOUNTED SPLIT AIR-CONDITIONER WITH INVERTER TECHNOLOGY: REDUCES YOUR ELECTRICITY BILLS BY 50% WITH EXTRA EFFICIENT COOLING PERFORMANCE!!!</p>
+    
+    </td>
+    <td id="td1"><img src="13.jpeg" heig
+    ht="250" width="250">
+    <h2 id="h2">ORIENT LED 50G6521</h2>
+<p id="p1">50 INCH FULL HD CRYSTAL CLEAR LED TV WITH ULTRA THIN DESIGN,ENERGY EFFICIENT TECHNOLOGY AND URDU LANGUAGE SUPPORT.</p>
+<h1>Old price: PKR 68000.00</h1>
+
+<h1>Price: PKR 53500.00</h1>
+    </td>
+    
+  </tr>
+</table>
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+<div class="footer">
+<ul>
+  
+    <li><a href="">Home Page</a></li>
+    <li><a href="">Products</a></li>
+    <li><a href="">Brands</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact us</a></li>
+</ul>    
+
+<h4>Copyright © 2015 Harvel Electric. All rights reserved.<span style="float:right">Designed and Developed By Noman Baloch and Shadab Ahmed Khan Web Hosting In Pakistan</h4></span>
+
+</body>
+</html>
